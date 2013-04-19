@@ -102,4 +102,5 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (~> 3.0.13)
+  sass
   slim
