@@ -1,0 +1,56 @@
+@mixin appearance($appearance) {
+ -o-appearance: none;
+ -moz-appearance: none;
+ -webkit-appearance: none;
+ appearance: none;
+}
+
+@mixin background-clip($clip) {
+  -o-background-clip: $clip;
+  -moz-background-clip: $clip;
+  -webkit-background-clip: $clip;
+  background-clip: $clip;
+}
+
+@mixin background-size($size) {
+  -o-background-size: $size;
+  -moz-background-size: $size;
+  -webkit-background-size: $size;
+  background-size: $size;
+}
+
+@mixin border-radius($radius) {
+  -o-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow($shadow) {
+  -o-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  -webkit-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+@mixin box-sizing($value) {
+  -o-box-sizing: $value;
+  -moz-box-sizing: $value;
+  -webkit-box-sizing: $value;
+  box-sizing: $value;
+}
+
+@mixin transform($transform) {
+  -o-transform: $transform;
+  -moz-transform: $transform;
+  -webkit-transform: $transform;
+  transform: $transform;
+}
+
+@mixin transition($transition) {
+  -o-transition: $transition;
+  -moz-transition: $transition;
+  -webkit-transition: $transition;
+  transition: $transition;
+}
+
