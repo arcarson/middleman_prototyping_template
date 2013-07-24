@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/logaan/rapricot.git
+  revision: 0b0ca9d5c157131ce5d3031dd7a553a41ead73bd
+  specs:
+    rapricot (0.0.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -102,5 +108,6 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (~> 3.0.13)
+  rapricot!
   sass
   slim

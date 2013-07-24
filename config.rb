@@ -1,4 +1,5 @@
 require "slim"
+require 'rapricot'
 ###
 # Compass
 ###
