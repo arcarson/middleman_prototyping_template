@@ -7,3 +7,6 @@ gem "slim"
 gem "sass"
 
 gem "rapricot", :git => "https://github.com/logaan/rapricot.git"
+
+gem 'middleman-aws-deploy'
+gem 'foreman'

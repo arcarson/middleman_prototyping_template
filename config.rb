@@ -76,4 +76,14 @@ configure :build do
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
+
+  if ENV.include?('DEPLOY_STAGING')
+    activate :s3_deploy do |s3|
+      s3.access_key_id = ENV['AWS_ACCESS_KEY_ID']
+      s3.secret_access_key = ENV['AWS_SECRET_ACCESS_KEY']
+      s3.bucket = ENV['AWS_S3_BUCKET_STAGING']
+      s3.region = ENV['AWS_S3_REGION_STAGING']
+    end
+  end
+
 end
