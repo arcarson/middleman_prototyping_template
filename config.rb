@@ -1,5 +1,8 @@
 require "slim"
 require 'rapricot'
+
+activate :autoprefixer
+
 ###
 # Compass
 ###

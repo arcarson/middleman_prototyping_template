@@ -5,6 +5,7 @@ source 'http://rubygems.org'
 gem "middleman", "~>3.0.13"
 gem "slim"
 gem "sass"
+gem "middleman-autoprefixer"
 
 gem "rapricot", :git => "https://github.com/logaan/rapricot.git"
 
