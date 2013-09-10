@@ -1,13 +1,15 @@
-# If you have OpenSSL installed, we recommend updating
-# the following line to use "https"
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem "middleman", "~>3.0.13"
+
+gem "middleman"
+gem "middleman-blog"
+
+
 gem "slim"
-gem "sass"
 gem "middleman-autoprefixer"
-
 gem "rapricot", :git => "https://github.com/logaan/rapricot.git"
 
-gem 'middleman-aws-deploy'
-gem 'foreman'
+
+gem 'middleman-s3_sync'
+gem 'middleman-cloudfront'
+gem 'dotenv'
