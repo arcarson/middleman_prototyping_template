@@ -3,8 +3,6 @@ require 'rapricot'
 require 'dotenv'
 Dotenv.load
 
-
-
 # Helpers
  #helpers do
    #def some_helper

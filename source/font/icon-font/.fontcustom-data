@@ -1,0 +1,17 @@
+{
+  "fonts": [
+    "fontcustom_1d458775c09c1914cd3ab8ea6abe6c00.ttf",
+    "fontcustom_1d458775c09c1914cd3ab8ea6abe6c00.woff",
+    "fontcustom_1d458775c09c1914cd3ab8ea6abe6c00.eot",
+    "fontcustom_1d458775c09c1914cd3ab8ea6abe6c00.svg"
+  ],
+  "templates": [
+    "_fontcustom.scss"
+  ],
+  "file_name": "fontcustom_1d458775c09c1914cd3ab8ea6abe6c00",
+  "glyphs": [
+    "angle-left",
+    "angle-right",
+    "circle"
+  ]
+}
