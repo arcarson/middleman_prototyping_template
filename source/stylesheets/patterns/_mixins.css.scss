@@ -30,3 +30,21 @@
   text-indent: -9999px;
   width: $width;
 }
+
+@mixin placeholder {
+  &.placeholder { @content }
+  &:-moz-placeholder { @content }
+  &::-webkit-input-placeholder { @content }
+}
+
+@mixin breakpoint($point) {
+  @if $point == large {
+    @media (max-width: 1600px) { @content; }
+  }
+  @else if $point == medium {
+    @media (max-width: 1400px) { @content; }
+  }
+  @else if $point == small {
+    @media (max-width: 480px)  { @content; }
+  }
+}
