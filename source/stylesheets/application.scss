@@ -11,12 +11,11 @@
  *= require_self
  */
 
-@import "patterns/mixins.css.scss";
-@import "patterns/utilities.css.scss";
+@import "scaffolding/_mixins";
+@import "scaffolding/_utilities";
 
-@import "scaffolding/global-variables.css.scss";
-@import "scaffolding/base.css.scss";
-@import "scaffolding/fontcustom.scss";
-@import "scaffolding/layout.css.scss";
-@import "scaffolding/normalize.css.scss";
+@import "scaffolding/_global-variables";
+@import "scaffolding/_base";
+@import "scaffolding/_fontcustom.scss";
+@import "scaffolding/_normalize";
 
