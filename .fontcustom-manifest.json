@@ -1,0 +1,84 @@
+{
+  "checksum": {
+    "previous": "43791f90f584a07cb7918fe0ca6d689f7fd4106fcebd049f7374093b5cbf977c",
+    "current": "43791f90f584a07cb7918fe0ca6d689f7fd4106fcebd049f7374093b5cbf977c"
+  },
+  "fonts": [
+    "source/fonts/fontcustom_43791f90f584a07cb7918fe0ca6d689f.ttf",
+    "source/fonts/fontcustom_43791f90f584a07cb7918fe0ca6d689f.svg",
+    "source/fonts/fontcustom_43791f90f584a07cb7918fe0ca6d689f.woff",
+    "source/fonts/fontcustom_43791f90f584a07cb7918fe0ca6d689f.eot"
+  ],
+  "glyphs": {
+    "angle-left": {
+      "codepoint": 61696,
+      "source": "icons/angle-left.svg"
+    },
+    "angle-right": {
+      "codepoint": 61697,
+      "source": "icons/angle-right.svg"
+    },
+    "caret-down": {
+      "codepoint": 61699,
+      "source": "icons/caret-down.svg"
+    },
+    "caret-right": {
+      "codepoint": 61700,
+      "source": "icons/caret-right.svg"
+    },
+    "circle": {
+      "codepoint": 61698,
+      "source": "icons/circle.svg"
+    },
+    "cross": {
+      "codepoint": 61701,
+      "source": "icons/cross.svg"
+    },
+    "email": {
+      "codepoint": 61702,
+      "source": "icons/email.svg"
+    },
+    "facebook": {
+      "codepoint": 61703,
+      "source": "icons/facebook.svg"
+    },
+    "pinterest": {
+      "codepoint": 61704,
+      "source": "icons/pinterest.svg"
+    },
+    "twitter": {
+      "codepoint": 61705,
+      "source": "icons/twitter.svg"
+    },
+    "youtube": {
+      "codepoint": 61706,
+      "source": "icons/youtube.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "fontcustom.yml",
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_name": "fontcustom",
+    "force": false,
+    "input": {
+      "templates": "icons",
+      "vectors": "icons"
+    },
+    "no_hash": false,
+    "output": {
+      "css": "source/stylesheets/scaffolding",
+      "fonts": "source/fonts",
+      "preview": "source/fonts"
+    },
+    "preprocessor_path": "",
+    "quiet": false,
+    "templates": [
+      "scss"
+    ]
+  },
+  "templates": [
+    "source/stylesheets/scaffolding/_fontcustom.scss"
+  ]
+}
