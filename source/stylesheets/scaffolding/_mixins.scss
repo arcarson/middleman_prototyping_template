@@ -1,3 +1,7 @@
+// ==========================================================================
+//  text mixins
+// ==========================================================================
+
 @mixin declare-font-face($font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
   @font-face {
     font-family: '#{$font-family}';
@@ -12,30 +16,21 @@
   }
 }
 
-@mixin image-replace($img, $width, $height) {
-  display: block;
-  text-indent: -9999px;
-  background: url('/images/#{$img}') no-repeat;
-  height: $height;
-  width: $width;
-}
 
-@mixin svg-image-replace($img, $width, $height) {
-  background: url("/images/#{$img}.png");
-  background-image: url("/images/#{$img}.svg"), none;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: block;
-  height: $height;
-  text-indent: -9999px;
-  width: $width;
-}
+// ==========================================================================
+//  form element mixins
+// ==========================================================================
 
 @mixin placeholder {
   &.placeholder { @content }
   &:-moz-placeholder { @content }
   &::-webkit-input-placeholder { @content }
 }
+
+
+// ==========================================================================
+//  responsive mixins
+// ==========================================================================
 
 @mixin breakpoint($point) {
   @if $point == large {
