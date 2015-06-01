@@ -11,11 +11,57 @@
  *= require_self
  */
 
-@import "scaffolding/_mixins";
-@import "scaffolding/_utilities";
 
-@import "scaffolding/_global-variables";
-@import "scaffolding/_base";
-@import "scaffolding/_fontcustom.scss";
-@import "scaffolding/_normalize";
+// ==========================================================================
+//  core
+// ==========================================================================
+
+//  vendor
+// --------------------------------------
+@import "core/vendor/_knife";
+
+
+//  reset
+// --------------------------------------
+@import "core/_normalize";
+
+
+//  variables
+// --------------------------------------
+@import "core/_global-variables";
+
+
+//  mixins/functions/utilities
+// --------------------------------------
+@import "core/_mixins";
+@import "core/_utilities";
+
+
+//  misc
+// --------------------------------------
+@import "core/_fontcustom.scss";
+@import "core/_base";
+
+
+// ==========================================================================
+//  modules
+// ==========================================================================
+
+//  Baseline grid
+// --------------------------------------
+@import "modules/baseline-grid/_variables";
+@import "modules/baseline-grid/_baseline-grid";
+
+
+//  Container
+// --------------------------------------
+@import "modules/container/_container";
+
+
+//  Grid
+// --------------------------------------
+@import "modules/grid/_variables";
+@import "modules/grid/_col";
+@import "modules/grid/_row";
+
 

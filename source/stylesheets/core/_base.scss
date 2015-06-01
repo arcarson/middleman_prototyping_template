@@ -1,0 +1,75 @@
+.preload * {
+  transition: none !important;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  @include khtml();
+}
+
+body {
+  @include kbody();
+}
+
+html,
+body,
+input,
+button,
+textarea {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+h1 {
+  @include ktype(5, 1, 1);
+}
+
+h2 {
+  @include ktype(4, 1, 1);
+}
+
+h3 {
+  @include ktype(3, 1, 1);
+}
+
+h4 {
+  @include ktype(2, 1, 1);
+}
+
+h5 {
+  @include ktype(1, 1, 0);
+}
+
+h6 { 
+  @include ktype(0, 1, 0);
+}
+
+p, ul, ol {
+  @include ktype(0, 0, 1);
+}
+
+small {
+  @include ktype(-1, 0, 0);
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+

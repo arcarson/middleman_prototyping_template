@@ -1,5 +1,22 @@
 ---
 title: cool title bro...
 ---
-h1 Index page
-i.icon-circle
+
+.container
+  .row
+    .col.col--12
+      h1 = lorem.words 10
+      h2 = lorem.words 10
+      h3 = lorem.words 20
+      h4 = lorem.words 20
+
+      - 3.times do
+        p = lorem.paragraphs 1
+
+      - 3.times do
+        small = lorem.paragraphs 1
+
+  .row
+    .col.col--12
+      i.icon-circle
+
